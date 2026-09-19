@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+runs/
+*.egg-info/
+CONTEXT.md
+PLAN.md
+PROGRESS.md
+MISTAKES.md
