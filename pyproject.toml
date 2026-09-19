@@ -1,0 +1,39 @@
+[project]
+name = "agentpair"
+version = "0.1.0"
+description = "Implementer and reviewer agent pair whose disputes are settled by an orchestrator that may run code first."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+authors = [{ name = "Reza Ehsani" }]
+dependencies = [
+    "claude-agent-sdk>=0.2.154",
+    # A runtime dependency, not a development one: the harness runs the agent's own suite
+    # with the interpreter it is running under, so a default install without pytest records
+    # suite_status="error" for every run in both arms and the dependent variable is lost.
+    "pytest>=9.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.16",
+    "pytest-asyncio>=1.4.0",
+]
+
+[project.scripts]
+agentpair = "agentpair.cli:main"
+
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/agentpair"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+

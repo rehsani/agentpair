@@ -1,0 +1,213 @@
+[
+  {
+    "task_id": "BigCodeBench/15",
+    "name": "BigCodeBench_15",
+    "libs": [
+      "subprocess",
+      "csv",
+      "os"
+    ],
+    "path": "BigCodeBench_15"
+  },
+  {
+    "task_id": "BigCodeBench/19",
+    "name": "BigCodeBench_19",
+    "libs": [
+      "glob",
+      "zipfile",
+      "os"
+    ],
+    "path": "BigCodeBench_19"
+  },
+  {
+    "task_id": "BigCodeBench/310",
+    "name": "BigCodeBench_310",
+    "libs": [
+      "statistics",
+      "csv",
+      "random",
+      "os"
+    ],
+    "path": "BigCodeBench_310"
+  },
+  {
+    "task_id": "BigCodeBench/324",
+    "name": "BigCodeBench_324",
+    "libs": [
+      "subprocess",
+      "threading",
+      "time"
+    ],
+    "path": "BigCodeBench_324"
+  },
+  {
+    "task_id": "BigCodeBench/326",
+    "name": "BigCodeBench_326",
+    "libs": [
+      "glob",
+      "subprocess",
+      "os",
+      "sys"
+    ],
+    "path": "BigCodeBench_326"
+  },
+  {
+    "task_id": "BigCodeBench/346",
+    "name": "BigCodeBench_346",
+    "libs": [
+      "subprocess",
+      "time",
+      "os",
+      "sys"
+    ],
+    "path": "BigCodeBench_346"
+  },
+  {
+    "task_id": "BigCodeBench/368",
+    "name": "BigCodeBench_368",
+    "libs": [
+      "shutil",
+      "random",
+      "os"
+    ],
+    "path": "BigCodeBench_368"
+  },
+  {
+    "task_id": "BigCodeBench/454",
+    "name": "BigCodeBench_454",
+    "libs": [
+      "glob",
+      "shutil",
+      "os"
+    ],
+    "path": "BigCodeBench_454"
+  },
+  {
+    "task_id": "BigCodeBench/592",
+    "name": "BigCodeBench_592",
+    "libs": [
+      "csv",
+      "datetime",
+      "random",
+      "os"
+    ],
+    "path": "BigCodeBench_592"
+  },
+  {
+    "task_id": "BigCodeBench/594",
+    "name": "BigCodeBench_594",
+    "libs": [
+      "shutil",
+      "random",
+      "os",
+      "csv",
+      "datetime"
+    ],
+    "path": "BigCodeBench_594"
+  },
+  {
+    "task_id": "BigCodeBench/720",
+    "name": "BigCodeBench_720",
+    "libs": [
+      "csv",
+      "datetime",
+      "random",
+      "os"
+    ],
+    "path": "BigCodeBench_720"
+  },
+  {
+    "task_id": "BigCodeBench/765",
+    "name": "BigCodeBench_765",
+    "libs": [
+      "shutil",
+      "pathlib",
+      "os"
+    ],
+    "path": "BigCodeBench_765"
+  },
+  {
+    "task_id": "BigCodeBench/771",
+    "name": "BigCodeBench_771",
+    "libs": [
+      "csv",
+      "pathlib",
+      "re",
+      "os"
+    ],
+    "path": "BigCodeBench_771"
+  },
+  {
+    "task_id": "BigCodeBench/777",
+    "name": "BigCodeBench_777",
+    "libs": [
+      "zipfile",
+      "re",
+      "os"
+    ],
+    "path": "BigCodeBench_777"
+  },
+  {
+    "task_id": "BigCodeBench/785",
+    "name": "BigCodeBench_785",
+    "libs": [
+      "subprocess",
+      "glob",
+      "os"
+    ],
+    "path": "BigCodeBench_785"
+  },
+  {
+    "task_id": "BigCodeBench/800",
+    "name": "BigCodeBench_800",
+    "libs": [
+      "csv",
+      "collections",
+      "os"
+    ],
+    "path": "BigCodeBench_800"
+  },
+  {
+    "task_id": "BigCodeBench/854",
+    "name": "BigCodeBench_854",
+    "libs": [
+      "math",
+      "itertools",
+      "functools"
+    ],
+    "path": "BigCodeBench_854"
+  },
+  {
+    "task_id": "BigCodeBench/857",
+    "name": "BigCodeBench_857",
+    "libs": [
+      "glob",
+      "warnings",
+      "time",
+      "shutil",
+      "os"
+    ],
+    "path": "BigCodeBench_857"
+  },
+  {
+    "task_id": "BigCodeBench/906",
+    "name": "BigCodeBench_906",
+    "libs": [
+      "re",
+      "shutil",
+      "zipfile",
+      "os"
+    ],
+    "path": "BigCodeBench_906"
+  },
+  {
+    "task_id": "BigCodeBench/928",
+    "name": "BigCodeBench_928",
+    "libs": [
+      "collections",
+      "itertools",
+      "string"
+    ],
+    "path": "BigCodeBench_928"
+  }
+]
