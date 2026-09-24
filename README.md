@@ -27,6 +27,8 @@ own tests, so no failure below is the benchmark's fault.
 | sonnet | opus | 78.4% | 70.6% | **+7.8** | $10.38 | $2.39 | 4.34x | 44.8 min | 10.7 min |
 | opus | opus | 91.2% | 79.4% | **+11.8** | $15.15 | $4.62 | 3.28x | 51.4 min | 16.3 min |
 
+Models: opus is Claude Opus 5, sonnet is Claude Sonnet 5.
+
 Times are wall clock for all 20 tasks run one after another, so they are what the sweep takes
 end to end rather than per task.
 
